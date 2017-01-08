@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="10cb4b7f-30b1-4d45-b8bd-16b4b53ead3e" name="Netflix" version="1.0.0" provider-name="Alexandre Souza">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Netflix - [Non-official] Watch TV Shows Online, Watch Movies Online</summary>
+    <description lang="en_gb">Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more. Start your free trial today.</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email>alexandre.higtrollers@gmail.com</email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon></icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
