@@ -25,6 +25,5 @@ class Netflix:
         except Exception as ex:
             self.Logger.Error(repr(ex))
 
-
 netflix = Netflix()
-netflix.LoadLoginPage("")
+netflix.LoadLoginPage("aa")
